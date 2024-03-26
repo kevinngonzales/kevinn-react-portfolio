@@ -9,12 +9,7 @@ function Contact() {
 
 <div className="page-container">
 
-<div className="title-wrapper">
-          <div className="projects-title">LET'S CONNECT!</div>
-          <div className="projects-title">LET'S CONNECT!</div>
-          <div className="projects-title">LET'S CONNECT!</div>
-          <div className="projects-title">LET'S CONNECT!</div>
-        </div>
+
 
       <div className="contact-container">
 
@@ -49,12 +44,7 @@ function Contact() {
       </div>
 </div>
 
-<div className="title-wrapper">
-          <div className="projects-title">LET'S CONNECT!</div>
-          <div className="projects-title">LET'S CONNECT!</div>
-          <div className="projects-title">LET'S CONNECT!</div>
-          <div className="projects-title">LET'S CONNECT!</div>
-        </div>
+
 
     </>
   );

@@ -6,7 +6,7 @@ function Navbar() {
     const { pathname } = useLocation();
 
     const navLinkColor = {
-        color: '#2b2b2b',
+        color: '#5ce1e6',
 
     };
 
@@ -15,7 +15,6 @@ function Navbar() {
     return (
 <>
       <nav className="navbar">
-<img src="/name-title.png" className="navbar-name" />
         <ul className="navbar-ul">
 
           <li>
@@ -23,7 +22,7 @@ function Navbar() {
             className="navbar-li" 
             to="/projects"  
             style={pathname === '/projects' ? navLinkColor : null}>
-            Projects
+            PROJECTS
             </Link>
           </li>
           <li>
@@ -31,7 +30,7 @@ function Navbar() {
             className="navbar-li" 
             to="/"
             style={pathname === '/' ? navLinkColor : null}>  
-            About
+            ABOUT
             </Link>
           </li>
           <li>
@@ -39,7 +38,7 @@ function Navbar() {
             className="navbar-li" 
             to="/contact"
             style={pathname === '/contact' ? navLinkColor : null}>  
-           Contact
+           CONTACT
             </Link>
           </li>
         </ul>

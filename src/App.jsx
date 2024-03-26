@@ -17,17 +17,17 @@ function App() {
 
         <Routes>
           <Route 
-          path="/kevinn-react-portfolio/Projects" 
+          path="/Projects" 
           element={<Projects />} 
           />
           
           <Route 
-          path="/kevinn-react-portfolio" 
+          path="/" 
           element={<About />} 
           />
 
           <Route 
-          path="/kevinn-react-portfolio/Contact" 
+          path="/Contact" 
           element={<Contact 
           />} />
         </Routes>

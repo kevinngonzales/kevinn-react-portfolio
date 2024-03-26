@@ -5,9 +5,13 @@ function Pokemon() {
     <>
       <div className="project2">
         <div className="pokemon-text">
-          <h2>POKEMON POKEDEX</h2>
+        <img className="project-title"  src="project-titles/pokepokedex-title.png" />
+        <div className="git-logo-container">
 
-          <span> <a href="https://github.com/kevinngonzales/week_6_react_with_swr">GitHub Link</a></span>
+        <a href="https://github.com/kevinngonzales/week_6_react_with_swr" target="_blank">
+            <img className="git-project" src="/button-logos/github-logo.png" />
+          </a>
+</div>
 
           <p>
             A React project that uses data fetching with Axios, promises, and

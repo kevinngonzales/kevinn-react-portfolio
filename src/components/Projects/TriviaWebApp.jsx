@@ -5,7 +5,13 @@ function TriviaWebApp() {
     <>
       <div className="project3">
         <div className="trivia-text">
-        <h2>RANDOM TRIVIA!</h2>
+        <img className="project-title" src="project-titles/randomtriv-title.png" />
+        <div className="git-logo-container">
+
+        <a href="https://github.com/kevinngonzales/project_web_app_random_api" target="_blank">
+            <img className="git-project" src="/button-logos/github-logo.png" />
+          </a>
+</div>
 
         <p>
           A Web Application that utilizes <a href="https://opentdb.com/">Open Trivia DB's</a> API to retrieve a

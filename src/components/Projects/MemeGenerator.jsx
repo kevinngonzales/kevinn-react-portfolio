@@ -5,11 +5,13 @@ function MemeGenerator() {
     <>
       <div className="project1">
         <div className="meme-gen-text">
-          <div>
-            <h2>MEME GENERATOR</h2>
-          </div>
 
-<span> <a href="https://github.com/kevinngonzales/week_5_meme_generator">GitHub Link</a></span>
+            <img className="project-title" src="project-titles/memegen-title.png" />
+
+
+          <a href="https://github.com/kevinngonzales/week_5_meme_generator" target="_blank">
+            <img className="git-project" src="/button-logos/github-logo.png" />
+          </a>
 
           <p>
             A web application that utilizes the{" "}

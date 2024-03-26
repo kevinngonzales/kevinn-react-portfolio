@@ -22,35 +22,35 @@ function About() {
   function Summary() {
     return (
       <>
-        <div className="title-wrapper">
-          <div className="projects-title">ABOUT ME </div>
-          <div className="projects-title">ABOUT ME </div>
-          <div className="projects-title">ABOUT ME </div>
-          <div className="projects-title">ABOUT ME </div>
-        </div>
+        <div className="about-container">
+          <img className="about-title" src="/name-title.png" />
 
+          <img className="profile-pic" src="/profile-picture.png"/>
 
-          <div className="about-container">
-            <h1>KEVINN GONZALES</h1>
-        <div className="about-text">
+          <div className="about-text">
             <h2>Full-Stack Developer specializing in Web Technlologies</h2>
-
-            <h2> Mission </h2>
-            <p>
-
-              With accessibility, inclusivity, and the innovation as important core values I resonate with, I know that through passion and creativity I can make a meaningful impact in the digital world.
+            <p className="text">
+            <h3>ABOUT</h3>
 
 
+              My name is Kevinn Gonzales and I am based in the Los Angeles area.
+              I have always been passionate about computers and technology and I
+              decided that a career in this space is something I can see myself
+              doing long-term. I started my journey in the tech space during the
+              summer of 2023 through The Knowledge House Fellowship. Although, I
+              am fairly new to this space, I am absolutely thrilled and excited
+              to commit myself and focus these skills into a career where I'm
+              excited to make a meaningful impact in the digital world.
 
-              Additionally, going through many different
-              paths of my professional life, I have become versatile and
-              adaptable. Having worked in the customer-service
-              space for a while, I believe that I have exceptional interpersonal
-              skills and customer satisfaction is a top priority for me.
+              <h3>MISSION</h3>
 
-
+              Having a good amount of experience in the customer-service space,
+              I believe that I have exceptional interpersonal skills and
+              customer satisfaction is a top priority for me. Additionally, with
+              a keen eye for design and detail, I strive to create uniqe
+              applications/websites that embody the vision and values for
+              clients and companies.
             </p>
-
 
             <h2>Technlologies</h2>
 
@@ -69,20 +69,13 @@ function About() {
             <h4> The Knowledge House Web Development Fellowship: </h4>
 
             <div>
-              12-month job training program that prepares participants for the
+              (In Progress) 12-month job training program that prepares participants for the
               competitive tech industry. Learned industry tools that power
               popular apps, from creating beautiful, fast, and responsive
               interfaces with Meta’s ReactJS to creating powerful APIs with the
               Express framework.
             </div>
           </div>
-        </div>
-
-        <div className="title-wrapper">
-          <div className="projects-title">ABOUT ME </div>
-          <div className="projects-title">ABOUT ME </div>
-          <div className="projects-title">ABOUT ME </div>
-          <div className="projects-title">ABOUT ME </div>
         </div>
       </>
     );
