@@ -7,7 +7,6 @@ function Navbar() {
 
     const navLinkColor = {
         color: '#5ce1e6',
-
     };
 
 

@@ -1,14 +1,11 @@
 body {
-  background-repeat: no-repeat;
-  background-color: #f4f4f4;
   background-size: 100%;
   font-family: Outfit;
   display: flex;
   flex-direction: column;
   color: whitesmoke;
-
   background-image: url(/public/bg-img.jpg);
-  background-size: 120%;
+  background-size: cover;
 
   font-family: "aileron", sans-serif;
 }
@@ -20,6 +17,9 @@ body {
 }
 /* -------------- nav bar css ---------------- */
 
+a {
+color: #5ce1e6;
+}
 .navbar-name {
   display: flex;
   align-items: center;
@@ -149,7 +149,6 @@ ul {
 .project3 {
   display: flex;
   flex-direction: column;
-
   align-items: center;
   justify-content: center;
   background-color: white;
@@ -174,7 +173,6 @@ ul {
 .project3:hover {
   transform: scale(1.01, 1.01);
   width: 65%;
-  margin-top: 20px;
 }
 
 .videos {
