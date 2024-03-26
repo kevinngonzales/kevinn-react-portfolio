@@ -1,5 +1,5 @@
 import React from "react";
-import Pokemon from "../projects/Pokemon";
+import Pokemon from "../projects/Pokemon.jsx";
 import MemeGenerator from "../projects/MemeGenerator";
 import TriviaWebApp from "../projects/TriviaWebApp";
 
