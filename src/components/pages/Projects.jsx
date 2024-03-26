@@ -1,7 +1,7 @@
 import React from "react";
-import Pokemon from "./Projects/Pokemon";
-import MemeGenerator from "./Projects/MemeGenerator";
-import TriviaWebApp from "./Projects/TriviaWebApp";
+import Pokemon from "../projects/Pokemon";
+import MemeGenerator from "../projects/MemeGenerator";
+import TriviaWebApp from "../projects/TriviaWebApp";
 
 function Projects() {
   return (
