@@ -14,7 +14,6 @@ function Projects() {
   return (
     <>
       <div className="page-container">
-       
         <div className="projects-container">
           <div className="card-container">
             <GithubApiApp />
@@ -25,9 +24,6 @@ function Projects() {
           </div>
         </div>
       </div>
-
-
-
     </>
   );
 }
