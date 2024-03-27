@@ -9,7 +9,7 @@ function Contact() {
 
 <div className="page-container">
 
-
+<img className="connect-title" src="project-titles/connect-title.png" />
 
       <div className="contact-container">
 

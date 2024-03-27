@@ -13,7 +13,7 @@ function ReactRefactor() {
           <img className="git-project" src="/button-logos/github-logo.png" />
         </a>
 
-        <a href=""><img className="web-button" src="/button-logos/website-logo.png" /></a>
+        <a href="" target="_blank"><img className="web-button" src="/button-logos/website-logo.png" /></a>
 </div>
         <p>
         A simple web application for managing student grades. User can input student data which gets rendered in a table. User can then calculate the average of all the student's grades.

@@ -231,6 +231,11 @@ ul {
   /* border: solid 2px red; */
 }
 
+.connect-title {
+margin-left: 190px;
+
+}
+
 .about-container:hover {
   transform: scale(1.01, 1.01);
   width: 65%;

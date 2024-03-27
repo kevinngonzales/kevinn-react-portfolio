@@ -13,7 +13,7 @@ function GithubApiApp() {
           <img className="git-project" src="/button-logos/github-logo.png" />
         </a>
 
-        <a href="https://github-api-app-m80q.onrender.com/"><img className="web-button" src="/button-logos/website-logo.png" /></a>
+        <a href="https://github-api-app-m80q.onrender.com/" target="_blank"><img className="web-button" src="/button-logos/website-logo.png" /></a>
 </div>
         <p>
         An application that uses Authentication with Passport.js which utilizes the Github API to fetch user profiles and repos. User can login or signup through Github. Users can also view and search for other Github users.
