@@ -7,7 +7,7 @@ function Contact() {
     <>
 
 
-<div className="page-container">
+
 
 <img className="connect-title" src="project-titles/connect-title.png" />
 
@@ -19,19 +19,12 @@ function Contact() {
           <span>kevinngstem@gmail.com </span>
         </div>
 
-
-
-
         <div className="contact-content2">
           <a href="https://linkedin.com/in/kevinngonzales" target="_blank">
             <img className="logo-img" src="/button-logos/linkedin-logo.png" />
           </a>
           <span>LinkedIn</span>
         </div>
-
-
-
-
 
         <div className="contact-content3">
           <a href="https://github.com/kevinngonzales" target="_blank">
@@ -41,7 +34,7 @@ function Contact() {
         </div>
 
 
-      </div>
+    
 </div>
 
 

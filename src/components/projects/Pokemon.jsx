@@ -11,6 +11,8 @@ function Pokemon() {
         <a href="https://github.com/kevinngonzales/week_6_react_with_swr" target="_blank">
             <img className="git-project" src="/button-logos/github-logo.png" />
           </a>
+
+          <a href="https://week-6-react-with-swr.onrender.com" target="_blank"><img className="web-button" src="/button-logos/website-logo.png" /></a>
 </div>
 
           <p>

@@ -11,6 +11,7 @@ function TriviaWebApp() {
         <a href="https://github.com/kevinngonzales/project_web_app_random_api" target="_blank">
             <img className="git-project" src="/button-logos/github-logo.png" />
           </a>
+          <a href="https://project-web-app-random-api.onrender.com" target="_blank"><img className="web-button" src="/button-logos/website-logo.png" /></a>
 </div>
 
         <p>
