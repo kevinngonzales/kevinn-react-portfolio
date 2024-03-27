@@ -29,7 +29,7 @@ function About() {
 
           <div className="about-text">
             <h2>Full-Stack Developer specializing in Web Technlologies</h2>
-            <p className="text">
+            <div className="text">
             <h3>ABOUT</h3>
 
 
@@ -50,7 +50,7 @@ function About() {
               a keen eye for design and detail, I strive to create uniqe
               applications/websites that embody the vision and values for
               clients and companies.
-            </p>
+            </div>
 
             <h2>Technlologies</h2>
 

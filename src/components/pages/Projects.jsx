@@ -2,6 +2,8 @@ import React from "react";
 import Pokemon from "../projects/Pokemon.jsx";
 import MemeGenerator from "../projects/MemeGenerator";
 import TriviaWebApp from "../projects/TriviaWebApp";
+import GithubApiApp from "../projects/GithubApiApp.jsx";
+import ReactRefactor from "../projects/ReactRefactor.jsx";
 
 function Projects() {
   return (
@@ -10,7 +12,9 @@ function Projects() {
        
         <div className="projects-container">
           <div className="card-container">
+            <GithubApiApp />
             <MemeGenerator />
+            <ReactRefactor />
             <Pokemon />
             <TriviaWebApp />
           </div>

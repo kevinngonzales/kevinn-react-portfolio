@@ -131,10 +131,12 @@ ul {
 }
 
 .project-title {
+  margin-bottom: 10px;
   width: 90%;
 }
 
 .git-project {
+  margin-right: 15px;
   width: 50px;
   border-radius: 25%;
 }
@@ -143,6 +145,13 @@ ul {
   justify-content: center;
   align-items: center;
 }
+
+.web-button {
+  width: 47px;
+  margin-left: 15px;
+}
+
+
 
 .project1,
 .project2,
@@ -155,7 +164,7 @@ ul {
   color: whitesmoke;
   border-radius: 15px;
   margin: 20px;
-  width: 60%;
+  width: 55%;
   padding: 30px;
   transition: 0.2s;
 
@@ -171,8 +180,8 @@ ul {
 .project1:hover,
 .project2:hover,
 .project3:hover {
-  transform: scale(1.01, 1.01);
-  width: 65%;
+  transform: scale(1.005, 1.005);
+  width: 60%;
 }
 
 .videos {
