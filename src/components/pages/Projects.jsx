@@ -1,9 +1,14 @@
 import React from "react";
-import Pokemon from "../projects/Pokemon.jsx";
-import MemeGenerator from "../projects/MemeGenerator";
-import TriviaWebApp from "../projects/TriviaWebApp";
+
 import GithubApiApp from "../projects/GithubApiApp.jsx";
+
+import MemeGenerator from "../projects/MemeGenerator";
+
 import ReactRefactor from "../projects/ReactRefactor.jsx";
+
+import Pokemon from "../projects/Pokemon.jsx";
+
+import TriviaWebApp from "../projects/TriviaWebApp";
 
 function Projects() {
   return (
